@@ -1,0 +1,19 @@
+{
+  "name": "newfront",
+  "version": "0.1.0-dev",
+  "description": "New FSEconomy Web Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fseconomy/newfront.git"
+  },
+  "author": "Daemotron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fseconomy/newfront/issues"
+  },
+  "homepage": "https://github.com/fseconomy/newfront#readme"
+}
