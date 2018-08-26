@@ -28,6 +28,7 @@ Working on this project follows a specific workflow, relying on automation tools
 
 ### Build Process
 
+* Run `npm install` to retrieve all dependencies
 * Use `gulp` to build the website (result in `./public`)
 * Use `gulp dev` to build website dynamically, run it in browser and monitor files for changes.
 
