@@ -1,0 +1,39 @@
+{
+  "name": "newfront",
+  "version": "0.1.0-dev",
+  "description": "New FSEconomy Web Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fseconomy/newfront.git"
+  },
+  "author": "Daemotron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fseconomy/newfront/issues"
+  },
+  "homepage": "https://github.com/fseconomy/newfront#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "http-server": "^0.11.1",
+    "jquery": "^3.3.1",
+    "merge-stream": "^1.0.1",
+    "popper.js": "^1.14.4"
+  },
+  "postinstall": "gulp"
+}
