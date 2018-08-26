@@ -4,7 +4,8 @@
   "description": "New FSEconomy Web Frontend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "gulp"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,5 @@
     "jquery": "^3.3.1",
     "merge-stream": "^1.0.1",
     "popper.js": "^1.14.4"
-  },
-  "postinstall": "gulp"
+  }
 }
