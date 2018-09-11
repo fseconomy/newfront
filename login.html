@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="FSEconomy Game World">
+    <meta name="author" content="The FSE Development Team">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Sign In</title>
+    <style>
+        #loader {
+            transition: all 0.3s ease-in-out;
+            opacity: 1;
+            visibility: visible;
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+            background: #fff;
+            z-index: 90000;
+        }
+
+        #loader.fadeOut {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: calc(50% - 20px);
+            left: calc(50% - 20px);
+            background-color: #333;
+            border-radius: 100%;
+            -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+            animation: sk-scaleout 1.0s infinite ease-in-out;
+        }
+
+        @-webkit-keyframes sk-scaleout {
+            0% { -webkit-transform: scale(0) }
+            100% {
+                -webkit-transform: scale(1.0);
+                opacity: 0;
+            }
+        }
+
+        @keyframes sk-scaleout {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            } 100% {
+                  -webkit-transform: scale(1.0);
+                  transform: scale(1.0);
+                  opacity: 0;
+              }
+        }
+    </style>
+    <!-- Icons for this template -->
+    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Stylesheet -->
+    <!-- build:css -->
+    <link href="assets/css/fse.css" rel="stylesheet">
+    <!-- endbuild -->
+    <style>
+        body {
+            min-height: 100vh;
+        }
+        .flex-fill {
+            flex: 1 1 auto;
+        }
+        .bg {
+            background: url("assets/img/bg.jpg") no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="d-flex flex-row">
+    <div class="main-page d-flex flex-column flex-fill">
+        <div class="bg flex-fill"></div>
+    </div>
+    <div class="d-flex flex-column p-5">
+        <h1>FSEconomy Login</h1>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Your Username or Password are incorrect.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name">Username:</label>
+                <input type="text" id="name" class="form-control" name="user" placeholder="Enter your username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="event">
+                    I will follow the
+                    <a class="normal" href="http://fseconomy.net/tos" target="_blank">
+                        Rules of Fair Play
+                    </a>
+                </label>
+                <input type="submit" id="event" name="event" class="btn btn-primary" value="Agree & Log in">
+            </div>
+        </form>
+    </div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/vendor/jquery.slim.min.js"></script>
+<script src="assets/js/vendor/popper.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<!-- build:js -->
+<script src="assets/js/fse.js"></script>
+<!-- endbuild -->
+</body>
+</html>
