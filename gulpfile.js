@@ -133,5 +133,8 @@ gulp.task("build", gulp.series(gulp.parallel('css:minify', 'js:minify', 'vendor'
         .pipe(gulp.dest('public'));
 }));
 
+// Test task
+gulp.task("test", gulp.series('clean', 'build', 'replaceHtmlBlock'));
+
 // Default task
 gulp.task("default", gulp.series("clean", 'build', 'replaceHtmlBlock'));
