@@ -1,5 +1,7 @@
 # New FSEconomy Web Frontend
 
+[![Build Status](https://travis-ci.org/fseconomy/newfront.svg?branch=master)](https://travis-ci.org/fseconomy/newfront)
+
 The purpose of this project is to develop a new web frontend for the FSEconomy Game World.
 We're seeking to achieve the following design goals:
 
