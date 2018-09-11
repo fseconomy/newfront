@@ -2,7 +2,7 @@
 
 // An object literal
 var app = {
-    init: function() {
+    init: function () {
         app.functionOne();
     },
     functionOne: function () {
